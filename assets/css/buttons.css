@@ -1,0 +1,11 @@
+.branding-cta{
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    text-transform: uppercase;
+    color: #fff;
+    width: 200px;
+    font-size: 13pt;
+    cursor: pointer;
+}

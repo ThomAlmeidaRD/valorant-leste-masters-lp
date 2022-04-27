@@ -1,0 +1,57 @@
+.branding {
+
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+}
+
+.branding video {
+    position: fixed;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.branding-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 460px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+
+}
+
+.branding-img {
+    margin: 10px;
+
+}
+
+.branding-img img {
+    width: 400px;
+}
+
+.branding-info {
+    margin: 10px;
+    width: 60%;
+
+}
+
+.branding-info h1 {
+    font-style: italic;
+    font-size: 2.8rem;
+    padding-bottom: 20px;
+    width: 70%;
+}
+
+.branding-info p {
+    font-size: 1.5rem;
+    width: 70%;
+    padding-bottom: 20px;
+}
