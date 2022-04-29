@@ -1,6 +1,8 @@
 @import url('navbar.css');
 @import url('branding.css');
 @import url('buttons.css');
+@import url('cards-info.css');
+@import url('footer.css');
 
 * {
     margin: 0px;

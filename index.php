@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>Valorant Leste Masters...</title>
 </head>
 
@@ -20,12 +20,20 @@
     <div class="container">
         <div class="container-content">
             <?
-            include('inc/branding.php')
+            include('inc/branding.php');
+            include('inc/fast-infos.php');
+            include('inc/cards-info.php');
+            include('inc/ranks.php');
+
             ?>
         </div>
     </div>
 
 
 </body>
+
+<?
+include('inc/footer.php');
+?>
 
 </html>

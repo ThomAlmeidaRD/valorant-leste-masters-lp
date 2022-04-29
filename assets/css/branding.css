@@ -19,11 +19,10 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    height: 460px;
+    height: 560px;
     position: relative;
     z-index: 1;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #23272a;
     margin: 0 auto;
 
 }
@@ -39,19 +38,18 @@
 
 .branding-info {
     margin: 10px;
-    width: 60%;
+    width: 35%;
 
 }
 
 .branding-info h1 {
-    font-style: italic;
-    font-size: 2.8rem;
+    font-size: 4.8rem;
     padding-bottom: 20px;
-    width: 70%;
+    
 }
 
 .branding-info p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     width: 70%;
     padding-bottom: 20px;
 }
